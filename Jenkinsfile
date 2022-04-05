@@ -12,6 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'cd simple-node-js-react-npm-app'
+                sh 'cd package.json
                 sh 'npm install'
             }
         }
