@@ -11,8 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd simple-node-js-react-npm-app'
-                sh 'cd package.json'
+                sh 'npm init'
                 sh 'npm install'
             }
         }
