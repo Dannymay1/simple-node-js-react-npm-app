@@ -11,7 +11,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cd /home/ubuntu/simple-node-js-react-npm-app'
                 sh 'npm install'
             }
         }
