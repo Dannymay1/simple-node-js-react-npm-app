@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pm2 install'
+                sh 'npm install'
             }
         }
         stage('Test') {
